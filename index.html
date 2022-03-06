@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Tour Plan - Hotel Booking</title>
-    <link rel="stylesheet" href="sass/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,16 +13,17 @@
     rel="stylesheet"
   </head>
   <body>
-    <header class="header">
+    <navbar class="navbar">
       <div class="container">
-        <div class="header-top">
+        <div class="navbar-top">
           <a href="#" class="logo">
             <img
               src="image/horizontal-logo.svg"
               alt="Logo : Best Tour Plan"
               class="logo__image"
             />
-            <form action="#" class="search">
+          </a>
+            <form action="#" class="search navbar__search">
               <input
                 type="text"
                 class="search__input"
@@ -33,34 +34,33 @@
               </button>
             </form>
             <a href="#" class="user">
-              <img src="#" alt="Avatar : User" class="user__avatar" />
+              <img src="image/avatar.jpeg" alt="Avatar : User" class="user__avatar" />
               <span class="user__name">User</span>
             </a>
-          </a>
         </div>
-        <ul class="header-menu"></ul>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">All Deals</a>
+        <ul class="navbar-menu"></ul>
+        <li class="navbar-menu__item">
+          <a href="#" class="navbar-menu__link">All Deals</a>
         </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Hotels</a>
+        <li class="navbar-menu__item">
+          <a href="#" class="navbar-menu__link">Hotels</a>
         </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Activities</a>
+        <li class="navbar-menu__item">
+          <a href="#" class="navbar-menu__link">Activities</a>
         </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Hotel Day Packages</a>
+        <li class="navbar-menu__item">
+          <a href="#" class="navbar-menu__link">Hotel Day Packages</a>
         </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Restaurants</a>
+        <li class="navbar-menu__item">
+          <a href="#" class="navbar-menu__link">Restaurants</a>
         </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Events</a>
+        <li class="navbar-menu__item">
+          <a href="#" class="navbar-menu__link">Events</a>
         </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Rodrigues</a>
+        <li class="navbar-menu__item">
+          <a href="#" class="navbar-menu__link">Rodrigues</a>
         </li>
       </div>
-    </header>
+    </navbar>
   </body>
 </html>
