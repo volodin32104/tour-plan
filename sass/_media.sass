@@ -22,3 +22,28 @@
 @media (max-width: 768px)
     .container
         max-width: 700px
+    .navbar
+        &__search, &-menu, &__user
+            display: none
+        &-top
+            &__menu-button
+
+    .menu
+        &-button
+            display: flex
+            width: 16px
+            height: 11px
+            justify-content: space-between
+            align-items: center
+            flex-direction: column
+            border: none
+            cursor: pointer
+            background-color: $light
+            &__line
+                width: 16px
+                height: 1px
+                background-color: $text-color
+
+@media ( max-width: 576px)
+    .logo
+        width: 99px
